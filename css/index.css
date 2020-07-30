@@ -1,0 +1,321 @@
+/*覆盖bootstrap插件的默认属性*/
+:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-color: rgba(0,0,0,0);
+    outline-style: auto;
+    /*outline-width: 5px*/
+}
+.top-one{
+
+    margin-top: 5px;
+    height: 50px;
+    width: 100%;
+    background: rgba(26, 75, 90, 0.71);
+    overflow: hidden;
+    position: relative;
+    /*text-underline: none;*/
+}
+.logo{
+    position: absolute;
+    left: 15%;
+
+}
+.top-one>ul{
+    position: absolute;
+    color: #e3e3e3;
+    font-size: 20px;
+    right: 13%;
+    margin-top: 15px;
+}
+.top-one ul li {
+    text-underline: none;
+    margin-left:15px;
+    list-style: none;
+    display: inline;
+    width: 170px;
+    color: #fcfcfc;
+}
+.top-two{
+    color: #e3e3e3;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(45deg, rgb(2, 0, 49), rgb(130, 77, 106));
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    margin-bottom: 0;
+}
+.top-container{
+    font-size: 130px;
+}
+.rule{
+    width: 800px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 12;
+    left: 23%;
+    top: 15%;
+    padding-top: 30px;
+    text-align: center;
+    display: none;
+}
+.rule>p{
+    line-height: 50px;
+    color: white;
+}
+/*弹出框的设置开始了*/
+.login {
+    display: none;
+    width: 512px;
+    height: 280px;
+    position: fixed;
+    border: #ebebeb solid 1px;
+    left: 50%;
+    top: 50%;
+    background: rgba(0,0,0,0.5);
+    box-shadow:rgba(0,0,0,0.5);
+    z-index: 111;
+    transform: translate(-50%, -50%);
+    color: #3e81bf;
+    opacity: 0.85;
+}
+.login-title{
+    text-align: center;
+}
+
+.login-title a {
+    width: 100%;
+    margin: 10px 0 0 0;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+}
+.login-input-content {
+    margin-top: 20px;
+}
+
+.login-button {
+    width: 50%;
+    margin: 30px auto 0 auto;
+    line-height: 40px;
+    font-size: 14px;
+    border: #ebebeb 1px solid;
+    text-align: center;
+}
+
+.login-bg {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .3);
+}
+
+.huiyuan{
+    text-decoration: none;
+    color: #3275b6;
+    cursor: pointer;
+}
+
+.login-button a {
+    display: block;
+}
+
+.login-input input.list-input {
+    float: left;
+    line-height: 35px;
+    height: 35px;
+    width: 350px;
+    border: #ebebeb 1px solid;
+    text-indent: 5px;
+}
+
+.login-input {
+    overflow: hidden;
+    margin: 0 0 20px 0;
+}
+
+.login-input label {
+    float: left;
+    width: 90px;
+    padding-right: 10px;
+    text-align: right;
+    line-height: 35px;
+    height: 35px;
+    font-size: 14px;
+}
+
+.login-title span {
+    position: absolute;
+    font-size: 12px;
+    right: -20px;
+    top: -30px;
+    background: #ffffff;
+    border: #ebebeb solid 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+/*单出框的设置完毕*/
+.top-down{
+    height: 100px;
+    width: 100%;
+    color: #5bc0de;
+    font-size: 25px;
+    background: #e3e3e3;
+}
+.center-top{
+    width: 100%;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*这是正文的第二部分*/
+.center-middle{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3px;
+}
+.center-middle-top{
+    margin-top: 0;
+    height: 80px;
+    width: 100%;
+    color: #5bc0de;
+    background-color: #E3E3E3;
+    text-align: center;
+    overflow: hidden;
+}
+.center-middle-top2{
+    padding-top: 3px;
+}
+.center-middle{
+    background-color: #e3e3e3;
+    position: relative;
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+.center-middle1{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    padding:0 2px 0 2px;
+}
+.center-middle1>a{
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.sion1 h2{
+    margin-top: 120px;
+    color: #a9e0ee;
+}
+.sion1 h5{
+
+    color: yellowgreen;
+}
+.sion1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    color: red;
+}
+.sion1:hover{
+    background-color: #454646;
+    opacity: 0.9;
+    transition:opacity 0.5s;
+    -moz-transition:opacity 0.5s ;
+    -webkit-transition:opacity 0.5s ;
+}
+/*这是正文第三部分，也是本页核心部分！*/
+.index-end{
+    overflow: hidden;
+    width: 100%;
+    height: 860px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: -3px;
+}
+.index-end2{
+    overflow: hidden;
+    background-color: #E3E3E3;
+    color: #5bc0de;
+    height: 80px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+.index-end3{
+    width: 100%;
+    height: 815px;
+    background-image: url("../images/index.jpg");
+    opacity: 0.85;
+    overflow: hidden;
+    color: #e2e2e2;
+}
+.wenzi1{
+    margin-top: 10px;
+    font-size: 22px;
+}
+.wenzi2{
+    color: gold;
+    font-size: 45px;
+}
+
+/* 第五个特效，泡沫的css设置*/
+.highcharts-figure, .highcharts-data-table table {
+    min-width: 320px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #EBEBEB;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+
+
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <style>
+        #div1{
+            margin: 300px auto;
+            opacity: 0.8;
+            color: white;
+            background-color: #333;
+            height: 350px;
+            width: 500px;
+            font-size: 20px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body style=" background-color: rgb(227,227,227);height: auto;">
+                <div id="div1">
+                    <div style="text-align: center"><a href="http://localhost:9090/submit" style="color: white">添加</a></div>
+                <table border="1" width="500">
+                    <tr>
+                        <td>序号</td>
+                        <td>内容</td>
+                    </tr>
+                    <% for (var i = 0; i < list.length; i++) { %>
+                    <tr >
+                        <td>
+                            <span><%= (i+1) %>.</span>
+                        </td>
+
+                        <td class="title">
+                            <a href="/item?id=<%= list[i].id %>" style="color: white;">
+                                <%= list[i].title %>
+                            </a>
+                        </td>
+                    </tr>
+                    <% } %>
+                </table>
+
+                </div>
+</body>
+
+</html>

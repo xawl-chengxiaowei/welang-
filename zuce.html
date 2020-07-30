@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="chajian/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="chajian/bootstrap/css/bootstrap.css">
+    <script src="chajian/bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/zuce.css">
+    <script src="js/zuce.js"></script>
+</head>
+<body>
+<!--导航栏-->
+<div  class="top-one1">
+    <div class="logo1"><img src="images/logo.png "style="width: 250px;height: 50px"></div>
+    <!--    页面导航-->
+    <div class="daohang col-md-offset-8" >
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header"style="-webkit-tap-highlight-color:#5c7f8a">
+                    <a class="navbar-brand" style="background-color: #5c7f8a;color:#444 " href="index.html">首页</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="homepage.html">个人空间 <span class="sr-only"></span></a></li>
+                        <li><a href="move.html">影视</a></li>
+                        <li><a href="photowall.html">相册</a></li>
+                        <li><a href="zuce.html">注册</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+    </div>
+
+
+</div>
+<!--注册背景布局-->
+<div class="zuce-backgroud">
+    <!--      布局用户注册主界面-->
+    <div class="zuce-top1 col-md-offset-2">
+        <div class="col-md-offset-4"><h1>用户注册</h1></div>
+        <form>
+            <table>
+                <tr>
+                    <td>用户名:</td>
+                    <td>
+                        <input  type="text" style="border-radius:5px;" name="us">
+                    </td>
+                    <td>
+                        阅读服务协议:
+                    </td>
+                </tr>
+                <tr>
+                    <td>密码:</td>
+                    <td>
+                        <input type="password" value="" id="password" style="border-radius:5px;">
+                        (只能由英文字母和数字组成)
+
+                    </td>
+                    <td rowspan="8">
+                        <textarea style="width: 300px;height: 250px;resize: none;line-height: 25px">欢迎阅读条款说明:  微浪平台上的内容，包括信贷产品的内容(包括但不限于金融单位名称、联系人、联系信息、产品的描述和说明、相关图片、相关借款收费说明等)的信息均由用户在线提交或者用户授权微浪平台工作人员提交发布，相关用户依法应对其提供的任何信息承担全部责任，微浪平台对此等信息的准确性、完整性、合法性或真实性均不承担任何责任。此外，微浪平台对其他用户使用或提供本网站信息的任何商业活动及其风险不承担任何责任
+                        </textarea>
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>确认密码:</td>
+                    <td>
+                        <input type="password" id="password2" style="border-radius:5px;">
+                        (请保证两次输入的密码一致)
+                    </td>
+                </tr>
+                <tr>
+                    <td>我的电话:</td>
+                    <td>
+                        <input type="text"  id="dianhua" style="border-radius:5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td>电子邮箱:</td>
+                    <td>
+                        <input type="email" id="youxiang"style="border-radius:5px;">
+                        (务必输入正确的邮箱格式)
+                    </td>
+                </tr>
+                <tr>
+                    <td>性别:</td>
+                    <td>
+                        <input  type="radio" name="sex">男
+                        <input  type="radio" name="sex">女
+                    </td>
+                </tr>
+                <tr>
+                    <td>爱好:</td>
+                    <td>
+                        <input type="checkbox">学习
+                        <input type="checkbox">运动
+                        <input type="checkbox">聊天
+                        <input type="checkbox">其他
+                    </td>
+                </tr>
+                <tr>
+                    <td>喜欢的城市:</td>
+                    <td>
+                        <select name="city">
+                            <option>[请选择]</option>
+                            <option>北京</option>
+                            <option>上海</option>
+                            <option>天津</option>
+                            <option>福建</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>快来成为我们的一员吧--></td>
+                    <td>
+                        <input type="submit" id="submit">
+                        <input type="reset">
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+
+
+
+
+
+            </table>
+
+        </form>
+    </div>
+<!--布局游戏界面-->
+      <div class="zuce-youxi">
+          <div  style="text-align: center;color: red;padding-top:27px;">
+              <a href="youxi/index.html">我的游戏</a></div>
+
+
+      </div>
+
+      <div class=" middle-all ">
+          <!--布局图标-->
+          <div  class="tubiao-top1 container" >
+           <h2 class="col-md-offset-3"style="padding-left: 20px">感谢以下赞助商的大力支持</h2>
+          </div>
+          <div class="col-md-offset-3 row">
+          <div class=" tubiao-middle col-xs-7 ">
+              <div class="zuce-div">
+                  <ul class="zuce-ul">
+                      <li><span style='background:url("images/zucetubiao_01.gif")'></span><p>百度</p></li>
+                      <li><span style='background:url("images/zucetubiao_02.gif")'></span><p>百度</p></li>
+                      <li><span style='background:url("images/zucetubiao_03.gif")'></span><p>百度</p></li>
+                      <li><span style='background:url("images/zucetubiao_04.gif")'></span><p>百度</p></li>
+                      <li><span style='background:url("images/zucetubiao_05.gif")'></span><p>百度</p></li>
+                      <li><span style='background:url("images/zucetubiao_06.gif")'></span><p>百度</p></li>
+                      <li><span style='background:url("images/zucetubiao_07.gif")'></span><p>百度</p></li>
+                      <li><span style='background:url("images/zucetubiao_08.gif")'></span><p>百度</p></li>
+
+
+                  </ul>
+              </div>
+          </div>
+<!--              开始布局抽奖区-->
+          <div class="col-xs-7" style="width: 400px;height:400px;overflow: hidden;">
+              <h5>注册登录即可获得精美奖品哦</h5>
+              <div class="jiangli-div">
+                  <img src="images/01.jpg" alt="">
+                  <img src="images/02.png" alt="">
+                  <img src="images/03.jpg" alt="">
+                  <img src="images/04.jpg" alt="">
+                  <img src="images/05.jpg" alt="">
+                  <img src="images/06.jpg" alt="">
+                  <img src="images/07.jpg" alt="">
+                  <img src="images/08.jpg" alt="">
+                  <img src="images/09.jpg" alt="">
+              </div>
+                 <p class="p">开始抽奖</p>
+          </div>
+          </div>
+      </div>
+
+<!--    布局广告界面-->
+    <div class="ad">
+        <img src="images/ad-pic.png" alt="无法正常显示广告！">
+        <span class="ad-span"></span>
+    </div>
+
+  </div>
+<script>
+    $(function () {
+        $('.zuce-ul>li').mouseenter(function () {
+            //将图片往上移动消失
+            $(this).children("span").stop().animate({
+                top:-50
+
+            },1000,function () {
+            //    回调函数，将图片往下移动
+                $(this).css("top","50px");
+            //    将图片复位
+                $(this).stop().animate({
+                    top:0
+                },1000)
+
+            })
+
+        })
+        $(".p").click(function () {
+
+            var total=parseInt(Math.random() * 10+9);
+
+            var index=0;
+
+            var timer=setInterval(function () {
+
+            if(index===9){
+                index=0;
+            }
+                // // 2.2依次设置每个img的样式为cur
+
+       $(".jiangli-div>img").eq(index).addClass('cur').siblings().removeClass('cur');
+
+            index++;
+
+            total--;
+            if(total===0){
+                clearInterval(timer);
+
+                $(".jiangli-div>img").eq(index-1).fadeOut(500).fadeIn(500);
+
+            }
+
+
+
+            },50);
+
+        })
+            //开始部署广告的特效！
+
+            // 1.监听span的点击事件
+        $(".ad-span").click(function () {
+            $(".ad").remove();
+        })
+        $(".ad").stop().slideDown(1000).fadeOut(1000).fadeIn(1000);
+            // $(".ad-span").click(function () {
+            //     $(".ad").remove();
+            // });
+            // $(".ad").stop().slideDown(1000).fadeOut(1000).fadeIn(1000);
+
+
+
+
+    })
+</script>
+
+
+
+
+
+</body>
+</html>

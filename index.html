@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="chajian/animate.css">
+    <link rel="stylesheet" href="chajian/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="chajian/jquery-3.4.1.js"></script>
+    <script src="js/index.js"></script>
+    <script src="chajian/bootstrap/js/bootstrap.js"></script>
+    <title>Document</title>
+    <script src="chajian/highmaps.js"></script>
+    <script src="chajian/highcharts-3d.js"></script>
+    <script src="chajian/highcharts.js"></script>
+    <script src="chajian/exporting.js"></script>
+    <script src="chajian/accessibility.js"></script>
+    <script src="chajian/highcharts-more.js"></script>
+</head>
+<body>
+
+
+<div  class="top-one">
+    <div class="logo"><img src="images/logo.png "style="width: 250px;height: 50px"></div>
+    <ul>
+        <li><a href="#" class="rules" style="color:#454646">了解</a></li>
+        <!--              <li><a href="#">了解</a></li>-->
+        <!--              <li><div class="login-header" ><a href="#" style="" id="link">登录</a></div></li>-->
+        <li><a href="#"class="link"style="color: #454646" >登录</a></li>
+    </ul>
+</div>
+<!--开头部分-->
+<div class="rule animated zoomInDown">
+    <p>平台说明</p>
+    <p>Micro wave(微浪)是指一种基于用户关系信息分享、传播以及获取的</p>
+    <p>   通过关注机制分享简短实时信息的广播式的社交媒体、网络平台，</p>
+    <p>   允许用户通过Web、Wap、Mail、App、IM、SMS以及用户可以</p>
+    <p>   通过PC、手机等多种移动终端接入，以文字、图片、视频等多媒体</p>
+    <p>  形式，实现信息的即时分享、传播互动。</p>
+</div>
+
+<!--这是密码弹出框设置-->
+<div id="login" class="login animated zoomIn">
+
+    <div id="title" class="login-title"><div style="text-align: center;margin-top: 5px;">登录</div>
+        <span><a id="closeBtn" href="javascript:void(0);" class="close-login huiyuan">关闭</a></span>
+    </div>
+    <div class="login-input-content">
+        <div class="login-input">
+            <label>用户名：</label>
+            <input type="text" placeholder="请输入用户名" name="info[username]" id="username" class="list-input">
+        </div>
+        <div class="login-input">
+            <label>登录密码：</label>
+            <input type="password" placeholder="请输入登录密码" name="info[password]" id="password" class="list-input">
+        </div>
+    </div>
+    <div id="loginBtn" class="login-button huiyuan"><a href="homepage.html" id="login-button-submit">登录</a></div>
+</div>
+<!-- 弹出框遮盖层 -->
+<div id="bg" class="login-bg"></div>
+
+<!--这是巨幕！！-->
+<div class="jumbotron top-two">
+    <!--    <div class="rule">-->
+    <div  class="container">
+        <div  class="  animated zoomInDown top-container col-md-offset-3 ">Micro wave</div>
+        <!--        简单，高效便捷的广播式的社交媒体、网络平台-->
+        <h3 class=" animated slideInUp col-md-offset-4">简单、便捷、高效的广播式的社交媒体、网络平台</h3><br>
+        <p class="col-md-offset-6">
+            <a class="btn animated slideInLeft btn-primary link2" role="button">进一步了解 <span class="glyphicon glyphicon-chevron-right"></span></a>
+        </p>
+    </div>
+</div>
+<div class="top-down container">
+    <div class="animated slideInLeft" style="text-align: center"><h1>打造属于你的person空间</h1></div>
+</div>
+<!--中间正文第一轮播部分-->
+
+<div class="center-top">
+
+    <!--       这里是开头-->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators ，这是下面三个小圆圈-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides这是图片内容部分 -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/index-zs02.jpg" alt="路径加载错误" style="height: 500px;width: 100%">
+                <div class="carousel-caption">
+                    <p style="color: yellow">定格所有美好，分享你我喜悦！</p>
+                </div>
+
+            </div>
+            <div class="item">
+                <img src="images/indexzs01.jpg" alt="路径加载错误" style="height: 500px;width: 100%">
+                <div class="carousel-caption">
+                    <p style="color: yellow">至上品味，尊享视听盛宴！</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/index-zs03.png" alt="路径加载错误" style="height: 500px;width: 100%">
+                <div class="carousel-caption">
+                    <p style="color: #c8ff00">我的生活我做主！</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+
+
+    <!-- 这里是结尾-->
+</div>
+
+<!--中间正文触碰第二第部分-->
+<div class="center-middle" >
+    <div class="center-middle-top container"><div class="center-middle-top2  animated slideInLeft"><h1>展示属于你的unique视角</h1></div></div>
+    <!--       <div class="center-middle-top container col-md-offset-5"><h1>展示属于你的unique视角</h1></div>-->
+    <div class="raw">
+
+        <div class="center-middle1 col-md-4">
+            <a href="#">
+                <img src="images/index-shijiao1.jpg" style="width: 100%;height: 250px">
+                <div class="sion1">
+                    <h2>至上品味,尊享视听盛宴！</h2>
+                    <h5>WL影视</h5>
+
+                </div>
+            </a>
+        </div>
+        <div class="center-middle1 col-md-4">
+            <a href="#">
+                <img src="images/index-shijiao2.jpg"style="width: 100%;height: 250px">
+                <div class="sion1">
+                    <p><h2>拨动心弦，律动精彩！</h2> </p>
+                    <h5>WL音乐</h5>
+                </div>
+            </a>
+        </div>
+        <div class="center-middle1  col-md-4">
+            <a href="#">
+                <img src="images/index-shijiao3.png"style="width: 100%;height: 250px">
+                <div class="sion1">
+                    <h2>精彩游戏，别样生活！</h2>
+                    <h5>WL游戏</h5>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+</div>
+<!--中间正文最后部分-->
+<div class="container index-end">
+    <div class=" index-end2">
+        <div class=" animated slideInLeft" style="text-align: center"> <h1>百万人流，期待你的加入</h1></div>
+
+    </div>
+    <!--            这里开始布局-->
+    <div class="index-end3 container">
+        <div class="row">
+            <div class="col-md-3">
+                <div id="tubiao1" style="width: 300px;height: 300px;border: none"></div>
+                <div id="tubiao2"style="width: 400px;height: 400px"></div>
+            </div>
+            <div class="col-md-5" style="color: white;overflow: hidden">
+                <div class="wenzi1">
+                    根据每周日最新统计数据显示，平均每日访客量可达
+                    <p  class="wenzi2">18213544次</p>
+                    更有超过<span class="wenzi2">10000</span>专业人士在线为您解答！<br>
+                    您的选择，是对我们最大的支持！
+                </div>
+                <div id="tubiao4" style="width:400px;height: 300px;padding-left:105px"></div>
+            </div>
+            <div class="col-md-4">
+                <div id="tubiao3" style="width: 400px; 	height: 400px;min-width: 310px;max-width: 600px;margin: 0 auto;"></div>
+                <!--                            第五个泡泡特效如下-->
+                <figure style="width: 400px;height: 300px;padding-left: -50px"  class="highcharts-figure">
+                    <div id="tubiao5"></div>
+                    <p class="highcharts-description"></p>
+                </figure>
+
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
